@@ -154,12 +154,33 @@ function funcionNombrada() {
 const funcionNombradaDos = function () {
 }; 
 
+// Scope
+// var a; X
+// let b;
+
 // funciones fat arrow functions (flecha gorda)
 
 const funcionNombradaTres = () => {
     // codigo
 };
 
+const funcionNombradaCuatro = (x) => {
+    return x + 1;
+};
+
+const funcionNombradaCinco = (x, y) => {
+    return x + y;
+};
+
+const funcionNombradaSeis = (x, y) => {
+    return x + y;
+};
+
+
+const funcionNombradaSiete = (x, y) => x + y;
+
+
+const funcionNombradaOcho = x => x * x;
 
 
 
