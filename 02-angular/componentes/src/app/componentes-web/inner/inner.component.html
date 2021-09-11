@@ -1,0 +1,25 @@
+
+<!-- Interpolacion {{ propiedades }} {{ metodos() }} -->
+<!-- Interpolacion Sirve para visualizar variables html-->
+
+<p>Hola {{ nombre }}</p>
+
+<!-- Property Binding [propiedad] -->
+<!-- Property Binding [] Insertar valores en una propiedad de -->
+<!-- Property Binding la etiqueta html -->
+
+
+<img [src]="imagen" alt="" width="320" height="236">
+
+
+<div [innerHTML]="botonSanitizado">
+</div>
+
+<div [innerHTML]=" '<h1>Cuidado!</h1>' ">
+</div>
+
+<iframe [src]="videoSeguro" frameborder="0"></iframe>
+
+
+
+
