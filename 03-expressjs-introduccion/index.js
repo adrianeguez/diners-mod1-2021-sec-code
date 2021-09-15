@@ -26,8 +26,8 @@ app.post(
                         .required(),
         })
         const valores = {
-            nombre: req.body.nombre,
-            apellido: req.body.apellido,
+            nombre: req.headers.nombre,
+            apellido: req.headers.apellido,
         };
         schemaValidacion
         .validateAsync(valores)
@@ -79,9 +79,13 @@ app.use( // middleware
     }
 )
 */
+// 04-nestjs/ 
 
+// $ nest new diners
+// $ cd diners
+// $ npm run start
 
-
+// PUERTO http://localhost:3000/
 
 
 
